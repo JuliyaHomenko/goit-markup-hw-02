@@ -52,8 +52,8 @@ body {
 .filter .filter-button {
   color: #212121;
 }
-.filter .filter-button:hover,
-.filter .filter-button:focus {
+.filter .filter-button :hover,
+.filter .filter-button :focus {
   color: #ffffff;
   background-color: #2196f3;
 }

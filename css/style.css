@@ -1,0 +1,59 @@
+/* цвет основного текста  #212121 */
+/* вторичный цвет текста  #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* background: #E5E5E5; */
+.logo {
+  color: #2196f3;
+}
+ul {
+  list-style: none;
+}
+/*site-nav */
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.adress:hover,
+.adress:focus {
+  color: #2196f3;
+}
+body {
+  color: #757575;
+}
+.adress {
+  color: #757575;
+}
+.heroy {
+  background: #2f303a;
+}
+.heroy-title {
+  color: #ffffff;
+}
+.button-service {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.title {
+  color: #212121;
+}
+.adress .home-adress {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.adress {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.filter .filter-button {
+  color: #212121;
+}
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}

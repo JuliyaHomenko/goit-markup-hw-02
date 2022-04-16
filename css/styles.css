@@ -21,7 +21,11 @@ body {
 }
 .logo {
   color: var(--accent-color);
-  font-family: Oleo Script;
+  font-family: Raleway; normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;

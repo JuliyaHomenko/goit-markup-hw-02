@@ -25,15 +25,15 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .connection {
+.connection {
   color: var(--primary-text-color);
   background-color: #ffffff;
 }
 .connection {
   color: var(--primary-text-color);
 }
-.site-nav .connection:hover,
-.site-nav .connection:focus {
+.connection:hover,
+.connection:focus {
   color: var(--accent-color);
 }
 body {

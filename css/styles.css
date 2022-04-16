@@ -20,9 +20,13 @@ ul {
 .site-nav .link {
   color: var(--title-text-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+.site-nav .connection {
+  color: var(--primary-text-color);
 }
 .site-nav .connection {
   background-color: #ffffff;
@@ -34,9 +38,7 @@ ul {
 body {
   color: var(--primary-text-color);
 }
-.site-nav .connection {
-  color: var(--primary-text-color);
-}
+
 .adress {
   color: var(--primary-text-color);
 }

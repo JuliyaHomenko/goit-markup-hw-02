@@ -25,15 +25,15 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.connection {
+.connection .home-adress {
   color: var(--primary-text-color);
   background-color: #ffffff;
 }
-.connection {
+.connection .home-adress {
   color: var(--primary-text-color);
 }
-.connection:hover,
-.connection:focus {
+.connection .home-adress:hover,
+.connection .home-adress:focus {
   color: var(--accent-color);
 }
 body {

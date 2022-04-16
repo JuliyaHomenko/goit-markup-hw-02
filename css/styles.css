@@ -3,8 +3,14 @@
 /* белый #FFFFFF */
 /* акцент #2196F3 */
 /* background: #E5E5E5; */
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 ul {
   list-style: none;
@@ -12,7 +18,7 @@ ul {
 /*site-nav */
 
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {

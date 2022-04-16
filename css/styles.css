@@ -27,9 +27,10 @@ ul {
 }
 .site-nav .connection {
   color: var(--primary-text-color);
-}
-.site-nav .connection {
   background-color: #ffffff;
+}
+.connection {
+  color: var(--primary-text-color);
 }
 .site-nav .connection:hover,
 .site-nav .connection:focus {

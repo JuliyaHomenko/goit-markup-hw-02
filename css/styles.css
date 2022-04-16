@@ -22,44 +22,50 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-.adress:hover,
-.adress:focus {
-  color: #2196f3;
+.site-nav .connection {
+  background-color: #ffffff;
+}
+.connection:hover,
+.connection:focus {
+  color: var(--accent-color);
 }
 body {
-  color: #757575;
+  color: var(--primary-text-color);
+}
+.connection {
+  color: var(--primary-text-color);
 }
 .adress {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .heroy {
   background: #2f303a;
 }
 .heroy-title {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .button-service {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 .title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .adress .home-adress {
-  color: #ffffff;
+  color: var(--primary-white-color);
   background-color: #2f303a;
 }
 .adress {
-  color: #ffffff;
+  color: var(--primary-white-color);
   background-color: #2f303a;
 }
 .filter .filter-button {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .filter .filter-button:hover,
 .filter .filter-button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }

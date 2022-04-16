@@ -9,8 +9,19 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
+
+/* body */
+body {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+}
 .logo {
   color: var(--accent-color);
+  font-family: Oleo Script;
 }
 ul {
   list-style: none;
@@ -36,10 +47,6 @@ ul {
 .connection .home-adress:focus {
   color: var(--accent-color);
 }
-body {
-  color: var(--primary-text-color);
-}
-
 .adress {
   color: var(--primary-text-color);
 }

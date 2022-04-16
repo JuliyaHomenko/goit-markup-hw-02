@@ -27,14 +27,14 @@ ul {
 .site-nav .connection {
   background-color: #ffffff;
 }
-.connection:hover,
-.connection:focus {
+.site-nav .connection:hover,
+.site-nav .connection:focus {
   color: var(--accent-color);
 }
 body {
   color: var(--primary-text-color);
 }
-.connection {
+.site-nav .connection {
   color: var(--primary-text-color);
 }
 .adress {

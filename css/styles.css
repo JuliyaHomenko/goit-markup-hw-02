@@ -34,6 +34,11 @@ ul {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -43,6 +48,12 @@ ul {
 .connection .home-adress {
   color: var(--primary-text-color);
   background-color: #ffffff;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
 }
 .connection .home-adress {
   color: var(--primary-text-color);
@@ -59,13 +70,62 @@ ul {
 }
 .heroy-title {
   color: var(--primary-white-color);
+  font-family: Roboto;
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 .button-service {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: Roboto;
+font-weight: 700;
+font-size: 16px;
+line-height: 1,86;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
 }
 .title {
   color: var(--title-text-color);
+}
+h3 {
+  font-family: Roboto;
+font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+h2 {
+  font-family: Roboto;
+font-weight: 700;
+font-size: 36px;
+line-height: 1,2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+h4 {
+  font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.comand {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,18;
+text-align: center;
+letter-spacing: 0.03em;
 }
 .adress .home-adress {
   color: var(--primary-white-color);

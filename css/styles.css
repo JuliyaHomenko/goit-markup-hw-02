@@ -13,7 +13,7 @@
 /* body */
 body {
   color: var(--primary-text-color);
-  font-family: Roboto; sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -180,12 +180,12 @@ span {
 .filter .filter-button {
   color: var(--title-text-color);
   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1,6;
-text-align: center;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter .filter-button:hover,
 .filter .filter-button:focus {
@@ -194,19 +194,18 @@ letter-spacing: 0.03em;
 }
 .all-foto {
   font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1,87;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.03em;
 }
 
 .all-foto .title {
   font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
-

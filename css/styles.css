@@ -10,7 +10,23 @@
   --primary-white-color: #ffffff;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 /* body */
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+}
+
 body {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -37,7 +53,46 @@ span {
 ul {
   list-style: none;
 }
+.heroy {
+  background: #2f303a;
+  text-align: center;
+  width: 1600px;
+  height: 600px;
+}
+.heroy-title {
+  color: var(--primary-white-color);
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
+  margin: 0 400px 30px;
+
+  padding-top: 200px;
+}
+a.button-service {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 86;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+
+  box-sizing: content-box;
+  padding: 10px 30px;
+  margin-bottom: 210px;
+}
+
+.title {
+  color: var(--title-text-color);
+}
 /*site-nav */
 
 .site-nav .link {
@@ -75,35 +130,7 @@ ul {
 .adress {
   color: var(--primary-text-color);
 }
-.heroy {
-  background: #2f303a;
-}
-.heroy-title {
-  color: var(--primary-white-color);
-  font-family: Roboto;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1, 36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-.button-service {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1, 86;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-}
-.title {
-  color: var(--title-text-color);
-}
+
 h3 {
   font-family: Roboto;
   font-weight: 700;
@@ -111,6 +138,8 @@ h3 {
   line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 94px;
 }
 h2 {
   font-family: Roboto;
@@ -119,6 +148,12 @@ h2 {
   line-height: 1, 2;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+.imagy {
+  margin-right: 30px;
 }
 h4 {
   font-family: Roboto;
@@ -137,6 +172,19 @@ h4 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.team:not(:last-child) {
+  margin-right: 30px;
+  margin-bottom: 108px;
+}
+.title.team {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.team p {
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
 .adress .home-adress {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
@@ -147,6 +195,8 @@ h4 {
   line-height: 1, 71;
   letter-spacing: 0.03em;
   text-decoration: none;
+
+  margin-bottom: 9px;
 }
 .adress .home-adress:hover,
 .adress .home-adress:focus {
@@ -161,6 +211,10 @@ h4 {
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
+
+  box-sizing: content-box;
+  width: 1600px;
+  height: 252px;
 }
 .sign {
   font-family: Raleway;
@@ -170,9 +224,10 @@ h4 {
   line-height: 1, 2;
   letter-spacing: 0.03em;
 }
-.sign {
+a.sign {
   color: #ffffff;
   text-decoration: none;
+  margin: 0px 1240px 161px 215px;
 }
 span {
   color: #2196f3;
@@ -187,8 +242,16 @@ span {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.filter .filter-button:hover,
-.filter .filter-button:focus {
+button {
+  display: inline-block;
+  padding: 6px 22px;
+  border: 4px;
+
+  margin-right: 8px;
+  margin-bottom: 50px;
+}
+button.filter-button:hover,
+button.filter-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }

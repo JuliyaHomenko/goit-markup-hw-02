@@ -94,6 +94,20 @@ a.button-service {
   color: var(--title-text-color);
 }
 /*site-nav */
+.container-header {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+}
+a.link {
+  margin-right: 50px;
+  padding: 16px 0px;
+}
+.link a:last-child {
+  margin-right: 0px;
+}
 
 .site-nav .link {
   color: var(--title-text-color);

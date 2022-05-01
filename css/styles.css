@@ -167,9 +167,7 @@ a.button-service {
   margin-left: 215px;
   margin-right: 215px;
 }
-.title {
-  color: var(--title-text-color);
-}
+
 p.benefits-title {
   margin-right: 30px;
   margin-top: 10px;
@@ -196,12 +194,15 @@ h2 {
   margin-bottom: 50px;
   margin-top: 0px;
 }
-.imagy {
+.imagy :not(:last-child) {
   margin-right: 30px;
 }
-.work {
-  display: inline-flex;
+.work-imagy {
+  display: flex;
   justify-content: center;
+}
+.work {
+  padding-bottom: 94px;
 }
 h4 {
   font-family: Roboto;
@@ -210,6 +211,10 @@ h4 {
   line-height: 1, 2;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--title-text-color);
+
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 .comand {
   font-family: Roboto;
@@ -219,21 +224,24 @@ h4 {
   line-height: 1, 18;
   text-align: center;
   letter-spacing: 0.03em;
+
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team:not(:last-child) {
   margin-right: 30px;
-  margin-bottom: 108px;
 }
-.title.team {
-  margin-bottom: 10px;
-  margin-top: 30px;
-}
-.team p {
+
+.team > p {
+  margin-top: 10px;
   margin-bottom: 30px;
-  margin-top: 0px;
 }
-.adress .home-adress {
+.adress .home {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
   font-family: Roboto;
@@ -243,11 +251,9 @@ h4 {
   line-height: 1, 71;
   letter-spacing: 0.03em;
   text-decoration: none;
-
-  margin-bottom: 9px;
 }
-.adress .home-adress:hover,
-.adress .home-adress:focus {
+.adress .home:hover,
+.adress .home:focus {
   color: var(--accent-color);
 }
 .adress {
@@ -260,7 +266,6 @@ h4 {
   line-height: 1, 71;
   letter-spacing: 0.03em;
 
-  box-sizing: content-box;
   width: 1600px;
   height: 252px;
 }
@@ -272,10 +277,12 @@ h4 {
   line-height: 1, 2;
   letter-spacing: 0.03em;
 }
+.adress-footer {
+  margin: 60px 1154px 60px 215px;
+}
 a.sign {
   color: #ffffff;
   text-decoration: none;
-  margin: 0px 1240px 161px 215px;
 }
 span {
   color: #2196f3;

@@ -273,6 +273,18 @@ h4 {
 
   width: 1600px;
   height: 252px;
+  align-items: center;
+}
+.address > p {
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+.website {
+  margin-bottom: 9px;
+}
+.adress-footer-home {
+  margin: 20px 1154px 120px 215px;
+  padding-left: 0px;
 }
 .sign {
   font-family: Raleway;
@@ -282,8 +294,11 @@ h4 {
   line-height: 1, 2;
   letter-spacing: 0.03em;
 }
-.adress-footer {
-  margin: 60px 1154px 60px 215px;
+.adress-footer > a {
+  margin: 0px 1240px 20px 215px;
+}
+footer {
+  padding-top: 60px;
 }
 a.sign {
   color: #ffffff;
